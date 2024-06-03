@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: payment-state-fee-service
+server:
+  port: 8082
