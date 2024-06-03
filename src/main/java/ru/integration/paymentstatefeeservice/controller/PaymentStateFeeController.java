@@ -27,7 +27,7 @@ import java.time.LocalDateTime;
 public class PaymentStateFeeController {
 
     @PostMapping("/uai")
-    @Operation(description = "Обновление контрагента")
+    @Operation(description = "Получение информации об уплате государственной пошлины")
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "Успешная обработка"),
             @ApiResponse(responseCode = "400", description = "Ошибка форматно-логического контроля"),
